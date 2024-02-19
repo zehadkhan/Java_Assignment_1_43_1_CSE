@@ -1,4 +1,4 @@
-// Base class
+
 class Shape {
     protected double area;
 
@@ -11,7 +11,6 @@ class Shape {
     }
 }
 
-// Derived classes
 class Rectangle extends Shape {
     protected double length;
     protected double width;
@@ -40,7 +39,6 @@ class Circle extends Shape {
     }
 }
 
-// Hybrid inheritance
 class ThreeDimensionalShape extends Shape {
     protected double volume;
 

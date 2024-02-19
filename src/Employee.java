@@ -76,7 +76,6 @@ class Technician extends Employee {
 
     @Override
     public double calculateSalary() {
-        // Assuming technician's salary calculation involves multiplying hourly rate with hours worked
         return hourlyRate * hoursWorked;
     }
 }
